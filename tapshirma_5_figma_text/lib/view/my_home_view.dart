@@ -18,8 +18,8 @@ class _MyHomeViewState extends State<MyHomeView> {
 
   void chang() {
     setState(() {
-      dice1 = Random().nextInt(7);
-      dice2 = Random().nextInt(7);
+      dice1 = Random().nextInt(6);
+      dice2 = Random().nextInt(6);
     });
   }
 
