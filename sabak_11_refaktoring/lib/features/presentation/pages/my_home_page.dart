@@ -57,7 +57,7 @@ newMethod() {
             text: 'Alga',
           ),
           SizedBox(
-            width: 14,
+            width: 15,
           ),
           AppBatton(
             alAksa: Colors.green,

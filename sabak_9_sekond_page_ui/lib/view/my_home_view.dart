@@ -136,7 +136,7 @@ class _MyHomeViewState extends State<MyHomeView> {
                         ),
                       );
                     } else {
-                      return null;
+                      return;
                     }
                   }
                 },

@@ -7,10 +7,13 @@ class AppBatton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
-      style: ElevatedButton.styleFrom(backgroundColor: alAksa),
-      onPressed: () {},
-      child: Text(text),
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 5),
+      child: ElevatedButton(
+        style: ElevatedButton.styleFrom(backgroundColor: alAksa),
+        onPressed: () {},
+        child: Text(text),
+      ),
     );
   }
 }
